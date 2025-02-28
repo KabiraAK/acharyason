@@ -13,8 +13,8 @@ const Footer = () => {
               <span className="ml-2 text-lg font-semibold text-white">Saveur</span>
             </Link>
             <p className="text-sm leading-relaxed mb-6">
-              Crafting unforgettable dining experiences with locally-sourced ingredients and 
-              innovative culinary techniques since 2010.
+              Crafting unforgettable dining experiences with locally-sourced ingredients and
+              innovative culinary techniques since 2023.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-stone-400 hover:text-amber-500 transition-colors">
@@ -35,9 +35,7 @@ const Footer = () => {
               <li>
                 <Link to="/" className="text-sm hover:text-amber-500 transition-colors">Home</Link>
               </li>
-              <li>
-                <Link to="/menu" className="text-sm hover:text-amber-500 transition-colors">Menu</Link>
-              </li>
+
               <li>
                 <Link to="/blog" className="text-sm hover:text-amber-500 transition-colors">Blog</Link>
               </li>
@@ -56,9 +54,9 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-medium mb-4">Opening Hours</h3>
             <ul className="space-y-2">
-              <li className="text-sm">Monday - Friday: 11am - 10pm</li>
-              <li className="text-sm">Saturday: 10am - 11pm</li>
-              <li className="text-sm">Sunday: 10am - 9pm</li>
+              <p className="text-stone-600">Sun - Tue: 24 hours</p>
+              <p className="text-stone-600">Wesneday: Closed</p>
+              <p className="text-stone-600">Thu -  Sat: 24 hours</p>
             </ul>
           </div>
 
@@ -67,22 +65,24 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-0.5 text-amber-500 flex-shrink-0" />
-                <span className="text-sm">123 Culinary Street, Foodville, FC 12345</span>
+                <span>Main Office</span><p className="text-stone-600">Indrawati-6 Sindhupalchok</p>
+                <span>Contact office</span> <p className="text-stone-600">Budhanilkantha, Kathamndu</p>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 text-amber-500 flex-shrink-0" />
-                <span className="text-sm">(123) 456-7890</span>
+                <span className="text-sm">(977) 9860863378</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-amber-500 flex-shrink-0" />
-                <span className="text-sm">info@saveurrestaurant.com</span>
+                <span className="text-stone-600">kabirajacharya777@hotmail.com</span>
+                <span className="text-stone-600">reservations@hotmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-stone-800 mt-10 pt-6 text-center text-xs text-stone-500">
-          <p>© {new Date().getFullYear()} Saveur Restaurant. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Acharya & Son's. All rights reserved.</p>
         </div>
       </div>
     </footer>
